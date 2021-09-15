@@ -2,12 +2,14 @@
 
 ## Usage
 
-- **Bloomfilter(int k):** Construct a bloom filter with `k`-byte table.
-- **void add(void\* item):** insert an item into the bloom filter.
-- **bool contains(void\* item):** check if the item is in the bloom filter.
-- **unsigned item_count():** return the amount of item the bloom filter contains.
-- **unsigned hash_count():** return hash function amount. There are `djb2` and `jekins` in source code.
-- **double FPR():** return false postive rate of current bloom filter. 
+|Method|Description|
+|------|-----------|
+|**Bloomfilter(int)**|Construct a bloom filter with `k`-byte table.|
+|**void add(void\*)**|Insert an item into the bloom filter.|
+|**bool contains(void\*)**|Check if the item is in the bloom filter.|
+|**unsigned item_count()**|Return the amount of item the bloom filter contains.|
+|**unsigned hash_count()**|Return hash function amount. There are `djb2` and `jekins` in source code.|
+|**double FPR()**|Return false postive rate of current bloom filter.|
 
 ## Example
 
