@@ -1,4 +1,4 @@
-# Binary Search Tree
+# Bloom Filter
 
 ## Usage
 
@@ -12,7 +12,7 @@
 ## Example
 
 ```
-$ g++ g++ example.cpp bloom.cpp -o a
+$ g++ example.cpp bloom.cpp -o a
 $ ./example
 Construct a bloom filter with 1024 bytes (8192 bits).
 The bloom filter has 2 hash funtions: djb2, jenkins.
