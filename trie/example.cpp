@@ -7,7 +7,7 @@ using namespace std;
 
 void test_search(trie t, string s) {
     cout << "Is \"" + s + "\" exists? "
-        << t.search(s) << endl;
+         << t.search(s) << endl;
 }
 
 int main() {
@@ -48,7 +48,7 @@ int main() {
     for (string s : t.list_start_with("ba")) {
         cout << s << endl;
     }
-    cout << endl;   
+    cout << endl;
 
     /* test remove */
     test_search(t, "banana");

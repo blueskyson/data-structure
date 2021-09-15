@@ -108,7 +108,7 @@ void trie::max_depth_recursive(node* n, int* max) {
     }
     for (std::pair<char, node*> pair : n->child) {
         max_depth_recursive(pair.second, max);
-    } 
+    }
 }
 
 int trie::max_depth() {
@@ -123,7 +123,7 @@ void trie::word_num_recursve(node* n, int* num) {
     }
     for (std::pair<char, node*> pair : n->child) {
         word_num_recursve(pair.second, num);
-    } 
+    }
 }
 
 int trie::word_number() {
