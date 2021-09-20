@@ -2,9 +2,20 @@
 
 ## Usage
 
+|Method|Description|
+|------|-----------|
+|**BST()**|Construct an empty binary search tree.|
+|**bool find(int)**|Test if given key is in the binary search tree.|
+|**unsigned int size()**|Get the node number of a binary search tree.|
+|**void insert(int)**|Insert a node into a binary search tree.|
+|**void remove(int)**|Remove a node from a binary search tree.|
+|**void traversal()**|List all nodes of a binary search tree.|
+
+## Example
+
 ```
-$ g++ demo.cpp -o demo
-$ ./demo
+$ g++ example.cpp -o example
+$ ./example
 There are 6 nodes.
 Print in order: 5 10 13 15 20 25
 Is '20' in BST? 1
